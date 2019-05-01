@@ -1,7 +1,6 @@
 def my_collect(arr) 
-  newArr = arr.each {
+  arr.each {
     |item|
     yield item
   }
-  newArr
 end
