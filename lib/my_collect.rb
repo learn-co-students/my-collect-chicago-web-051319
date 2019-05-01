@@ -1,6 +1,6 @@
 def my_collect(arr) 
-  arr.each {
-    |item|
-    yield item
-  }
+  output = []
+  i = 0
+  while i < arr.length
+    
 end
