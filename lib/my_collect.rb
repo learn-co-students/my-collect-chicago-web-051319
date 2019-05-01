@@ -1,6 +1,6 @@
 def my_collect(arr) 
-  return arr.each {
+  arr.each {
     |item|
-    item.upcase
+    puts item.upcase
   }
 end
